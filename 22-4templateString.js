@@ -4,14 +4,14 @@ const fullName = firstName + ' ' + lastName + " is a good guy.";
 const fullName2 = `${firstName} ${lastName} ${20+30+50} is a good guy.`; //Eita ke bole template string. Very useful in the long run.
 
 
-const multiLine = "I love you\n" //Ei porer line e giya likhle labh hoi na.
+const multiLine = "I love you\n" //Ei porer line e giya likhle labh hoi na. \n dile kaaj hoi.
     +"I miss you\n"
     +"I need you\n";
 
 const multiLine2 = `I love you.
 I miss you.
 No. I don't need you anymore.
-Baily Road e dorkar nai jawar.`
+Baily Road e dorkar nai jawar.` //Kintu template string e erokom porer line e giya likhlei hoi. Oibhabei output show kore.
 
 console.log(multiLine2);    
 // console.log(fullName2);
